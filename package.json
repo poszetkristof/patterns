@@ -4,19 +4,22 @@
   "description": "Playing with some design patterns",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "ts-node -r tsconfig-paths/register index.ts",
     "start:dp": "npx nodemon -r tsconfig-paths/register index.ts"
   },
   "author": "Poszet Kristof",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.12",
     "@types/module-alias": "^2.0.4",
-    "nodemon": "^3.1.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.3",
+    "jest": "^29.7.0",
     "module-alias": "^2.2.3",
-    "tsconfig-paths": "^4.2.0"
+    "nodemon": "^3.1.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.3"
   },
   "dependencies": {
     "module-alias": "^2.2.3"
