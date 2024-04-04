@@ -1,7 +1,7 @@
 import { AirEastShipper } from "./AirEastShipper";
 import { ChicagoSprintShipper } from "./ChicagoSprintShipper";
 import { PacificParcelShipper } from "./PacificParcelShipper";
-import { matcher, constant } from "../../../fp/utils";
+import { matcher, constant } from "../../fp/utils";
 import { ZIP_CODE_PREFIXES } from "../../constants";
 import type { Shipper } from "./Shipper";
 

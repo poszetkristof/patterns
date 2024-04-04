@@ -2,7 +2,7 @@ import { ShipmentDecorator } from "./ShipmentDecorator";
 import { Letter } from "./Letter";
 import { Package } from "./Package";
 import { Oversized } from "./Oversized";
-import { matcher, constant } from "../../../fp/utils";
+import { matcher, constant } from "../../fp/utils";
 import type { ShipmentProperties } from "../../types/ShipmentProperties";
 import type { Shippable } from "./Shippable";
 
