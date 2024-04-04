@@ -1,0 +1,27 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "description": "Playing with some design patterns",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node -r tsconfig-paths/register index.ts",
+    "start:dp": "npx nodemon -r tsconfig-paths/register index.ts"
+  },
+  "author": "Poszet Kristof",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3",
+    "module-alias": "^2.2.3",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  },
+  "_moduleAliases": {
+    "@loaders": "loaders/"
+  }
+}
