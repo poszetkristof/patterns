@@ -5,6 +5,11 @@ import { matcher, constant } from "../../fp/utils";
 import { ZIP_CODE_PREFIXES } from "../../constants";
 import type { Shipper } from "./Shipper";
 
+/**
+ * Factory class for creating Shipper instances based on zip code prefix.
+ * @class
+ */
+
 export class ShipperFactory {
   private constructor() {}
 
